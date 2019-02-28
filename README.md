@@ -1,5 +1,7 @@
 # Upload an image to AWS S3 using ReactJ, Redux and NodeJS
-Upload an image to AWS S3 using ReactJS/Redux and NodeJS
+In this project we learn to upload an image to AWS S3 using ReactJS/Redux and NodeJS.
+
+_Amazon S3 (Simple Storage Service) provides storage service through web services interfaces like REST. You can store any object in S3 including images, videos, files, etc. Objects are organized into buckets, and identified within each bucket by a unique, user-assigned key._ - Serverless Stack
 
 ## Pre-requisites
 
