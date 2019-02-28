@@ -30,5 +30,10 @@ npm install express express-fileupload dotenv aws-sdk cors --save
 
 ## Client Side Setup
 
+In the root of your project directory, run these commands:
+
 npx create-react-app client
-npm install axios bootstrap font-awesome redux redux-saga --save
+
+cd client
+
+npm install axios bootstrap font-awesome redux redux-saga http-proxy-middleware react-redux react-router-dom prop-types --save
