@@ -9,6 +9,9 @@ _Amazon S3 (Simple Storage Service) provides storage service through web service
 - Knowledge NodeJS/Express
 - Basic knowledge of React / Redux
 
+## AWS Side of things
+I am amusing that you are already owning a AWS account, whether it's paid or free. You will need to create S3 bucket which will be used to upload your images/photo, here is a [good read](https://serverless-stack.com/chapters/create-an-s3-bucket-for-file-uploads.html) that will walk you through the steps to creating your S3 bucket.
+
 ## Server Side Setup
 
 Let's start by off by initialising a package.json and installing packages that are essential to getting our node/express up and running.
