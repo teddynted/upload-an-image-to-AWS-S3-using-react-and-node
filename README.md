@@ -1,4 +1,7 @@
 # Upload an image to AWS S3 using ReactJ, Redux and NodeJS
+
+![picture alt](https://s3.amazonaws.com/humansofsouth-images-upload/Upload+an+image+to+AWS+S3+using+ReactJ%2C+Redux+and+NodeJS.png "Upload an image to AWS S3 using ReactJ, Redux and NodeJS")
+
 In this project we learn to upload an image to AWS S3 using ReactJS/Redux and NodeJS.
 
 _Amazon S3 (Simple Storage Service) provides storage service through web services interfaces like REST. You can store any object in S3 including images, videos, files, etc. Objects are organized into buckets, and identified within each bucket by a unique, user-assigned key._ - Serverless Stack
@@ -10,13 +13,14 @@ _Amazon S3 (Simple Storage Service) provides storage service through web service
 - Basic knowledge of React / Redux
 
 ## AWS Side of things
-I am amusing that you are already owning a AWS account, whether it's paid or free. You will need to create S3 bucket which will be used to upload your images/photo, here is a [good read](https://serverless-stack.com/chapters/create-an-s3-bucket-for-file-uploads.html) that will walk you through the steps to creating your S3 bucket.
+I am amusing that you are already owning a AWS account, whether it's paid or free. You will need to create S3 bucket which will be used to upload your images/photo, here is a [good read](https://serverless-stack.com/chapters/create-an-s3-bucket-for-file-uploads.html) on Serverless Stack, that will walk you through the steps to creating your S3 bucket.
 
 ## Server Side Setup
 
 Let's start by off by initialising a package.json and installing packages that are essential to getting our node/express up and running.
 
 npm init -y
+
 npm install express express-fileupload dotenv aws-sdk cors --save
 
 - express-fileupload is an express middleware for uploading files, it's compatible with express 4.
