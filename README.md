@@ -1,6 +1,6 @@
 # Upload an image to AWS S3 using ReactJ, Redux and NodeJS
 
-![picture alt](https://s3.amazonaws.com/humansofsouth-images-upload/Upload+an+image+to+AWS+S3+using+ReactJ%2C+Redux+and+NodeJS.png "Upload an image to AWS S3 using ReactJ, Redux and NodeJS")
+![picture alt](https://s3.amazonaws.com/humansofsouth-images-upload/Upload-an-image-to-AWS-S3-using-ReactJS-Redux-and-NodeJS.png "Upload an image to AWS S3 using ReactJ, Redux and NodeJS")
 
 In this project we learn to upload an image to AWS S3 using ReactJS/Redux and NodeJS.
 
