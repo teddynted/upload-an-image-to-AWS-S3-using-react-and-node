@@ -19,9 +19,9 @@ I am amusing that you are already owning a AWS account, whether it's paid or fre
 
 Let's start by off by initialising a package.json and installing packages that are essential to getting our node/express up and running.
 
-npm init -y
+_npm init -y_
 
-npm install express express-fileupload dotenv aws-sdk cors --save
+_npm install express express-fileupload dotenv aws-sdk cors --save_
 
 - express-fileupload is an express middleware for uploading files, it's compatible with express 4.
 - axios, this package will help us with http requests between the client and server.
@@ -32,8 +32,8 @@ npm install express express-fileupload dotenv aws-sdk cors --save
 
 In the root of your project directory, run these commands:
 
-npx create-react-app client
+_npx create-react-app client_
 
-cd client
+_cd client_
 
-npm install axios bootstrap font-awesome redux redux-saga http-proxy-middleware react-redux react-router-dom prop-types --save
+_npm install axios bootstrap font-awesome redux redux-saga http-proxy-middleware react-redux react-router-dom prop-types --save_
